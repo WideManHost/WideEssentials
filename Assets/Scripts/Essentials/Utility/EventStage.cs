@@ -1,5 +1,5 @@
 using System;
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -12,6 +12,6 @@ namespace WideWade
     {
         [Tooltip("how long to wait after the last event stage was fired to fire this stage.")]
         public float fireAfterSeconds = 0;
-        public UltEvent toFire;
+        public UnityEvent toFire;
     }
 }

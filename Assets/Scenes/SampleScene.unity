@@ -157,51 +157,22 @@ MonoBehaviour:
   - toActivate: {fileID: 832575517}
     activateDelay: 0
     toFire:
-      _PersistentCalls:
-      - _Target: {fileID: 410087040}
-        _MemberName: set_intensity
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 12
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
+      m_PersistentCalls:
+        m_Calls: []
   - toActivate: {fileID: 1023741098}
     activateDelay: 0
     toFire:
-      _PersistentCalls:
-      - _Target: {fileID: 410087040}
-        _MemberName: set_intensity
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 12
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
+      m_PersistentCalls:
+        m_Calls: []
   toDeactivateList:
   - toActivate: {fileID: 599904552}
     activateDelay: 0
     toFire:
-      _PersistentCalls:
-      - _Target: {fileID: 599904557}
-        _MemberName: frequency=
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 12
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
+      m_PersistentCalls:
+        m_Calls: []
   onActivatorTriggered:
-    _PersistentCalls: []
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &142343379
 Transform:
   m_ObjectHideFlags: 0

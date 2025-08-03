@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UltEvents;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace WideWade
 {
@@ -18,8 +18,8 @@ namespace WideWade
         public List<DestroyStage> objectsToDestroy = new List<DestroyStage>();
 
         [Header("Events")]
-        public UltEvent onDestroyStarted;
-        public UltEvent<GameObject> onTargetDestroyed;
+        public UnityEvent onDestroyStarted;
+        public UnityEvent<GameObject> onTargetDestroyed;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()

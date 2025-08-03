@@ -1,5 +1,5 @@
 using System;
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -16,7 +16,7 @@ namespace WideWade
         public float activateDelay;
 
         [Tooltip("Fires when the Object Activator runs, regardless of activation or deactivation.")]
-        public UltEvent toFire;
+        public UnityEvent toFire;
 
         public void Activate()
         {

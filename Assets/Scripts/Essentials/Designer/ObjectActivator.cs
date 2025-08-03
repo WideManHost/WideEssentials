@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Collections;
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -30,7 +30,7 @@ namespace WideWade
 
         [Header("Events")]
         [Tooltip("Fires when the Object Activator is triggered")]
-        public UltEvent onActivatorTriggered;
+        public UnityEvent onActivatorTriggered;
 
 
         bool _activated = false;

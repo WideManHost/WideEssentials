@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections;
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 
@@ -143,7 +143,7 @@ namespace WideWade
     public class EventDraw
     {
         [Tooltip("Called if we get drawn.")]
-        public UltEvent onEventDraw;
+        public UnityEvent onEventDraw;
         [Range(1,100)]
         [Tooltip("How much of a chance we get to be drawn")]
         public int weight;

@@ -1,4 +1,4 @@
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 
@@ -39,7 +39,7 @@ namespace WideWade
         public bool usesParentScaling;
 
         [Header("Events")]
-        public UltEvent<GameObject> onObjectInstantiated;
+        public UnityEvent<GameObject> onObjectInstantiated;
 
 
 

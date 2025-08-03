@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -11,11 +11,11 @@ namespace WideWade
     {
         [Header("Events")]
         [Tooltip("Fires when something with the whitelisted tag enters our trigger")]
-        public UltEvent<Collider> onTriggerEnter;
+        public UnityEvent<Collider> onTriggerEnter;
         [Tooltip("Fires when something with the whitelisted tag stays in our trigger")]
-        public UltEvent<Collider> onTriggerStay;
+        public UnityEvent<Collider> onTriggerStay;
         [Tooltip("Fires when something with the whitelisted tag exits our trigger")]
-        public UltEvent<Collider> onTriggerExit;
+        public UnityEvent<Collider> onTriggerExit;
 
         public List<string> tagWhitelist = new List<string>();
 

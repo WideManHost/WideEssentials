@@ -1,4 +1,4 @@
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -19,7 +19,7 @@ namespace WideWade
         public float rotationLerpSpeed = 5f;
 
         [Header("Events")]
-        public UltEvent onReachedTarget;
+        public UnityEvent onReachedTarget;
 
         private bool hasReached = false;
 

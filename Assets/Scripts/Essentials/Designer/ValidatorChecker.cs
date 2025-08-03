@@ -1,4 +1,4 @@
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -9,9 +9,9 @@ namespace WideWade
         public ConditionEvaluator validator;
 
         [Header("Events")]
-        public UltEvent<bool> onValidatorChanged;
-        public UltEvent onValidatorTrue;
-        public UltEvent onValidatorFalse;
+        public UnityEvent<bool> onValidatorChanged;
+        public UnityEvent onValidatorTrue;
+        public UnityEvent onValidatorFalse;
 
         bool lastValue;
 

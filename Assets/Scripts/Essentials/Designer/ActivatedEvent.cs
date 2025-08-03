@@ -1,4 +1,4 @@
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -10,7 +10,7 @@ namespace WideWade
     {
         [Header("Events")]
         [Tooltip("Fires this event as soon as the object is activated.")]
-        public UltEvent onStart;
+        public UnityEvent onStart;
 
         void Start()
         {

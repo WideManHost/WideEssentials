@@ -1,4 +1,4 @@
-using UltEvents;
+using UnityEngine.Events;
 using UnityEngine;
 
 namespace WideWade
@@ -13,7 +13,7 @@ namespace WideWade
         public bool destroyOnFinish = true;
 
         [Header("Events")]
-        public UltEvent<int> onSecondPassed;
+        public UnityEvent<int> onSecondPassed;
 
         private float _timer = 1;
         private int _secondsLeft;
