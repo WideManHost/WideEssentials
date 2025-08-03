@@ -33,6 +33,7 @@ This project uses/depends on [UltEvents](https://kybernetik.com.au/ultevents) an
 ### Rotation Clamp
 The `RotationClamp.cs` script was created by [Jonathan](https://github.com/JDoddsNAIT), Go check out his projects!
 
+---
 ## Documenation
 
 Unfortunately I am not equipped with the time to create documentation for the code. However there code is adequately commented, and there should be summaries for each method. Maybe in the future I'll be able to provide documentation.
