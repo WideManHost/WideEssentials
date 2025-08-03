@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5749335109081467234}
   m_Layer: 0
   m_Name: TimeManager
-  m_TagString: Untagged
+  m_TagString: Manager
   m_Icon: {fileID: 2800000, guid: d83b474ca76a1a846b7e371c345c42a8, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
